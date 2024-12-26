@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2024-12-26">
+    <shop>
+        <name>АйГроу</name>
+        <company>Рекламное агентство "АйГроу"</company>
+        <url>https://igrow22.ru</url>
+        <currencies>
+            <currency id="RUB" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Услуги</category>
+            <category id="2" parentId="1">Создание сайтов</category>
+        </categories>
+        <offers>
+            <offer id="1001" type="service" available="true">
+                <url>https://igrow22.ru/sozdanie-sajtov-na-zakaz-tilda-taplink-v-barnaule</url>
+                <price>30000</price>
+                <currencyId>RUB</currencyId>
+                <categoryId>2</categoryId>
+                <picture>https://cloud.mail.ru/public/Cwqq/mDDmkjwQy</picture>
+                <name>Создание сайтов под ключ</name>
+                <description>
+                    Услуга включает разработку сайтов любой сложности: от лендингов до интернет-магазинов. Мы используем современные технологии (Tilda, Figma, WordPress), обеспечиваем адаптивность дизайна и удобство использования.
+                </description>
+                <vendor>АйГроу</vendor>
+                <vendorCode>WEB-DEV-01</vendorCode>
+                <param name="Тип сайта">Лендинг, корпоративный сайт, интернет-магазин</param>
+                <param name="Срок выполнения">7–30 дней</param>
+                <param name="Дополнительные услуги">SEO-оптимизация, настройка рекламы</param>
+                <param name="Технологии">HTML5, CSS3, JavaScript, Tilda, WordPress</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
